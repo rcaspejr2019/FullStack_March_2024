@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4 Javascript</title>
+</head>
+<body>
+    <script type="application/Javascript">
+/*
+if(firstname == 'Allen');
+{
+       document.write("That is me!"); 
+} 
+
+else if(firstname == 'Michael')
+{
+    document.write("That is Michael!");
+}
+
+else 
+{
+    document.write("I don't know him!");
+}
+
+
+let firstname = 'Allene';
+let lastname = 'Young';
+          
+if(firstname == 'Allen' && lastname == 'Young')
+{
+    document.write("this is me!");
+}
+
+else 
+{
+    document.write("this is NOT me!");
+}
+
+// Switch Sample
+let day = 23; 
+
+switch(day) 
+{
+    case 1: 
+    document.write('Sunday');
+    break;
+
+    case 2:
+    document.write('Monday');
+    break;
+
+    default: 
+    document.write('NOT A VALID DAY!');
+}
+
+let firstname = 'Allen';
+const isthisme = firstname == 'Allen' ? "This is me!" : "This is not me!";
+
+//document.write(isthisme);*/
+
+let firstname = 'david';
+const isthisme = firstname == 'Allen' ? "This is me!" : (firstname == 'Michael' ? "This is Michael!" : " THIS IS NOT ANY OF US");
+
+   // document.write('is this me');
+
+  /* // sample of for loop
+   for(let x=0;x<100;x++)
+   {
+    document.write('Allen'+',<br>');
+   } 
+   */
+  /* // sample of while loop
+
+   let x = 0;
+   while(x<10)
+   {
+    document.write('Allen'+',<br>');
+    x++;
+
+   } */
+
+   for(let x=0;x<100;x++)
+   {
+        if (x == 10)
+        {
+            break;
+        }
+    document.write('Allen'+',<br>');
+   } 
+
+   
+let theworld = "A little a A apple";
+let thelenght = theworld.length;
+let counta = 0;
+for(let x=0;x<thelenght;x++)
+{
+    if(theworld[x] == 'a' || theworld[x] == 'A'  )
+    {
+        counta++;
+    }
+}
+
+document.write("the number of is: "+counta);
+
+let x = 0; 
+
+do {
+    document.write('Allen'+',<br>');
+     x++;
+}
+while(x<10)
+
+
+
+    </script>
+</body>
+</html>

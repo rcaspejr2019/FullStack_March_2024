@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+    display: inline-flex;
+    background-color: #487E94 ;
+    height: 150px;
+
+}
+nav li {
+    margin-right: 50px;
+    text-align: left;
+}
+a {
+    justify-content: right;
+
+}
